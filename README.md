@@ -78,19 +78,19 @@ Interfaz REST para consultar los datos procesados.
     El módulo `api_aemet` genera un archivo WAR que puede desplegarse en un servidor de aplicaciones (como Tomcat) o ejecutarse localmente si se configura el runner adecuado.
 
 ## Estructura de Directorios
-├── datalake/ # Crawler y generación de eventos JSON 
+    ├── datalake/ # Crawler y generación de eventos JSON 
 
-├── datamart/ # Procesamiento ETL y base de datos SQLite 
+    ├── datamart/ # Procesamiento ETL y base de datos SQLite 
 
-├── api_aemet/ # API REST (Jakarta EE) 
+    ├── api_aemet/ # API REST (Jakarta EE) 
 
-├── aemet_data/ # Directorio raíz de datos │ 
+    ├── aemet_data/ # Directorio raíz de datos │ 
 
-├── datalakes/ # Salida de archivos .events │ 
+    ├── datalakes/ # Salida de archivos .events │ 
 
-    └── datamarts/ # Salida de base de datos .db 
+        └── datamarts/ # Salida de base de datos .db 
     
-    └── pom.xml # Configuración padre de Maven
+        └── pom.xml # Configuración padre de Maven
 
 ## Autor
 

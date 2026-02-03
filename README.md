@@ -79,11 +79,17 @@ Interfaz REST para consultar los datos procesados.
 
 ## Estructura de Directorios
 ├── datalake/ # Crawler y generación de eventos JSON 
+
 ├── datamart/ # Procesamiento ETL y base de datos SQLite 
+
 ├── api_aemet/ # API REST (Jakarta EE) 
+
 ├── aemet_data/ # Directorio raíz de datos │ 
+
 ├── datalakes/ # Salida de archivos .events │ 
+
     └── datamarts/ # Salida de base de datos .db 
+    
     └── pom.xml # Configuración padre de Maven
 
 ## Autor
